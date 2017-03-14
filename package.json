@@ -1,33 +1,32 @@
 {
-  "name": "gulp-sass-inheritance",
-  "version": "0.5.1",
-  "description": "Rebuild only changed sass/scss files and all it's dependencies",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:berstend/gulp-sass-inheritance.git"
-  },
-  "keywords": [
-    "gulpplugin",
-    "sass",
-    "sass-inheritance",
-    "sass-graph",
-    "gulp-sass-graph",
-    "sass-dependencies",
-    "gulp-cached"
-  ],
-  "author": "berstend & Juanfran Alcántara",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/berstend/gulp-sass-inheritance/issues"
-  },
-  "homepage": "https://github.com/berstend/gulp-sass-inheritance",
-  "dependencies": {
-    "event-stream": "^3.1.7",
-    "gulp-util": "^3.0.0",
-    "lodash": "^2.4.1",
-    "sass-graph": "^1.2.0",
-    "through2": "^0.6.0",
-    "vinyl-fs": "^0.3.6"
-  }
+    "name": "gulp-sass-inheritance-plus",
+    "version": "1.0.0",
+    "description": "Rebuild only changed sass/scss files and all it's dependencies",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:rdshoep/gulp-sass-inheritance.git"
+    },
+    "keywords": [
+        "gulpplugin",
+        "sass",
+        "sass-inheritance",
+        "sass-graph",
+        "gulp-sass-graph",
+        "sass-dependencies",
+        "gulp-cached"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/rdshoep/gulp-sass-inheritance/issues"
+    },
+    "homepage": "https://github.com/rdshoep/gulp-sass-inheritance",
+    "dependencies": {
+        "event-stream": "^3.3.4",
+        "gulp-util": "^3.0.8",
+        "lodash.union": "^4.6.0",
+        "sass-graph": "^2.1.2",
+        "through2": "^2.0.3",
+        "vinyl-fs": "^2.4.4"
+    }
 }

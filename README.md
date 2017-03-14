@@ -1,15 +1,18 @@
-# gulp-sass-inheritance
+# gulp-sass-inheritance-plus
 
 > Rebuild a sass/scss file with other files that have extended or included those file
 
-Based on [gulp-jade-inheritance](https://github.com/juanfran/gulp-jade-inheritance)
+Based on [custom-gulp-sass-inheritance](https://github.com/juanfran/gulp-jade-inheritance)
+
+`gulp-sass-inheritance` not support nested import;
+`custom-gulp-sass-inheritance` resolve this bug, but the dependence `sass-gragh` is outdate.
 
 Uses [sass-graph](https://github.com/xzyfer/sass-graph) for the heavy lifting.
 
 ## Install
 
 ```shell
-npm install gulp-sass-inheritance --save
+npm install gulp-sass-inheritance-plus --save
 ```
 
 ## Usage
@@ -19,7 +22,7 @@ You can use `gulp-sass-inheritance` with `gulp-changed` to only process the file
 ```js
 'use strict';
 var gulp = require('gulp');
-var sassInheritance = require('gulp-sass-inheritance');
+var sassInheritance = require('gulp-sass-inheritance-plus');
 var sass = require('gulp-sass');
 var cached = require('gulp-cached');
 var gulpif = require('gulp-if');
