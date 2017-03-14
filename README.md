@@ -5,6 +5,7 @@
 Based on [custom-gulp-sass-inheritance](https://github.com/juanfran/gulp-jade-inheritance)
 
 `gulp-sass-inheritance` not support nested import;
+
 `custom-gulp-sass-inheritance` resolve this bug, but the dependence `sass-gragh` is outdate.
 
 Uses [sass-graph](https://github.com/xzyfer/sass-graph) for the heavy lifting.
