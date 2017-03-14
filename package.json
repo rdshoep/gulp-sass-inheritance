@@ -5,7 +5,7 @@
     "main": "index.js",
     "repository": {
         "type": "git",
-        "url": "git@github.com:rdshoep/gulp-sass-inheritance.git"
+        "url": "git@github.com:rdshoep/gulp-sass-inheritance-plus.git"
     },
     "keywords": [
         "gulpplugin",
@@ -18,9 +18,9 @@
     ],
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/rdshoep/gulp-sass-inheritance/issues"
+        "url": "https://github.com/rdshoep/gulp-sass-inheritance-plus/issues"
     },
-    "homepage": "https://github.com/rdshoep/gulp-sass-inheritance",
+    "homepage": "https://github.com/rdshoep/gulp-sass-inheritance-plus",
     "dependencies": {
         "event-stream": "^3.3.4",
         "gulp-util": "^3.0.8",
